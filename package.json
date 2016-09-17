@@ -1,0 +1,36 @@
+{
+  "name": "roadwork-utils",
+  "version": "0.1.0",
+  "description": "Utilities used in roadwork and roadwork-authentication",
+  "homepage": "https://github.com/thebillkidy/roadwork-utils",
+  "bugs": "https://github.com/thebillkidy/roadwork-utils/issues",
+  "author": "Xavier Geerinck",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thebillkidy/roadwork-utils.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "knex",
+    "hapi.js",
+    "node",
+    "REST",
+    "API",
+    "utils"
+  ],
+  "peerDependencies": {},
+  "dependencies": {
+    "moment": "^2.15.0"
+  },
+  "devDependencies": {
+    "code": "^3.0.2",
+    "hapi": "^14.1.0",
+    "lab": "^10.9.0",
+    "sinon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "lab -t 100",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "main": "index.js"
+}
